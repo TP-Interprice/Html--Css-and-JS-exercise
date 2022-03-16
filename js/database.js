@@ -3,24 +3,9 @@ if(!films) films = [{  title: "USA",  genre: 5, useLink: `<iframe width="500" he
 else films = JSON.parse(films)
 
 let genres = [
-    {
-        id: 1,
-        genre: "public"
-    },
-    {
-        id: 2,
-        genre: "social"
-    },
-    {
-        id: 3,
-        genre: "learning"
-    },
-    {
-        id: 4,
-        genre: "study"
-    },
-    {
-        id: 5,
-        genre: "comedy"
-    }
+    { id: 1, genre: "public" },
+    { id: 2, genre: "social" },
+    { id: 3, genre: "learnin" },
+    { id: 4, genre: "study" },
+    { id: 5, genre: "comedy" } 
 ]

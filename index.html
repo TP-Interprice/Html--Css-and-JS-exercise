@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="films-section">
+        <div class="films-header">
+            <form>
+                <select id="filterSelect">
+                    <option value="0">all movies</option>
+                </select>
+                <button>Filter</button>
+            </form>
+            <a class="films-link" href="./admin.html">Admin panel</a>
+        </div>
+        <ul class="films-list">
+            <li class="films-item">
+                <div>
+                    <iframe width="540" height="315" src="https://www.youtube.com/embed/oL7gU66lRXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="item-content">
+                    <h3>Siyosiy olam</h3>
+                    <span>Public</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <script src="./js/database.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
